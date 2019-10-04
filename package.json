@@ -19,7 +19,7 @@
     "mongoose-paginate": "^5.0.3",
     "node-restful": "^0.2.5",
     "pm2": "^2.1.5",
-    "bcrypt": "3.0.6",
+    "bcrypt": "^3.0.6",
     "jsonwebtoken": "^7.3.0"
   },
   "devDependencies": {
