@@ -19,7 +19,7 @@ BillingCicle.route('count', (req, res, next) => {
 
 
 BillingCicle.route('summary', (req, res, next) => {
-    BillingCicle.aggregate({
+    BillingCicle.aggregate().project({
         //projeção da consulta
         $project: {credit: {$sum: "$credits.value"}, depts: {$sum: "$depts.value"}}
     }, {
